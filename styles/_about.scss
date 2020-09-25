@@ -1,0 +1,117 @@
+.about  {
+	padding-top: 50px;
+	display: flex;
+}
+
+.sam {
+	max-width: 50%;
+	display: flex;
+	// flex-wrap: wrap;
+	padding-right: 50px;
+}
+
+.sam img {
+	border-radius: 20px;
+	max-height: 400px;
+}
+
+.sam img:hover {
+	box-shadow: 0 0 75px #484848;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+
+
+.info {
+	max-width: 50%;
+}
+
+.sam h2 {
+	font-family: 'Arizonia', sans-serif;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 3rem;
+	margin: 0;
+	padding: 0;
+}
+
+.sam h3 {
+	font-family: 'Arizonia', sans-serif;
+	text-align: center;
+	font-size: 2rem;
+	margin: 0;
+	padding: 0;
+}
+
+.sam p {
+	margin: 0;
+	padding: 20px;
+	font-family: 'Marck Script', sans-serif;
+	font-size: 1.4em;
+
+}
+
+.sam,
+.kubla {
+	animation: scale-in-bl 1.8s;
+}
+
+
+@keyframes scale-in-bl {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+    opacity: 1;
+  }
+}
+
+.kubla {
+	max-width: 50%;
+}
+
+.kubla img {
+	border-radius: 20px;
+	width: 90%;
+}
+
+.kublai img:hover {
+	box-shadow: 0 0 75px #484848;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+
+
+.kubla h2 {
+	font-family: 'Arizonia', sans-serif;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 3rem;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.kubla h3 {
+	font-family: 'Arizonia', sans-serif;
+	text-align: center;
+	font-size: 2rem;
+	margin: 0;
+	padding: 0;
+}
+
+.kubla p {
+	margin-top: 20px;
+	font-family: 'Marck Script', sans-serif;
+	font-size: 1.4em;
+
+}
+
+

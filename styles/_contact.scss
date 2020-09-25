@@ -1,0 +1,123 @@
+.contact {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+  padding-top: 50px;
+}
+
+.beast{
+	max-width: 60%;
+}
+
+.beast p {
+	font-family: 'Merienda', sans-serif;
+	font-size: 2rem;
+	max-width: 85%;
+	padding-top: 20px;
+	display: none;
+}
+
+@keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.beast img:hover + .pulsate-bck {
+	animation: pulsate-bck 500ms;
+	display: block;
+
+}
+
+.beast img {
+	max-width: 100%;
+	border-radius: 20px;
+	box-shadow: 0 0 75px #484848;
+	
+}
+
+.contact form {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  background: transparent; 
+  font-family: 'Cinzel', sans-serif;   
+}
+
+.contact form input {
+  
+  font-family: 'Cinzel', sans-serif;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 1.4rem;
+  border: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.contact input, 
+.contact button {
+  width : 200px;
+  margin: 0;
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+
+.contact button {
+  position: absolute;
+	bottom: 15%;
+	left: 62%;
+  width: 120px;
+	display: inline-block;
+	border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  font-family: 'Merienda', sans-serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+ }
+
+
+textarea {
+	position: relative;
+	bottom: 20%;
+  left: 20%;
+  vertical-align: top;
+  font-family: 'Cinzel', sans-serif;
+  border-radius: 20px;
+  width: 400px; 
+  height: 200px;   
+  text-align: center;
+  font-size: 1.7rem;
+	border: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-content: center;
+  justify-content: center;
+}
+
+textarea:focus {
+  outline: 0;
+}
+
+
+

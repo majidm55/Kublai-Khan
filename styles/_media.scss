@@ -1,0 +1,612 @@
+// /*MEDIA QUERIES*/
+
+// /*SMALL PHONES*/
+
+@media all
+and (min-device-width: 300px)
+and (max-device-width: 400px) {
+
+nav {
+  padding: 0;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  margin-top: 20px;
+}
+
+.hero h2 {
+ font-size: 4rem;
+}
+
+.headings {
+  padding-top: 120px;
+}
+
+a {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.sam {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  max-width: 300px;
+}
+
+.info {
+  max-width: 100%;
+}
+
+.sam h3 {
+max-width: 100%;
+}
+
+.sam p {
+  margin: 0;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.kubla {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  max-width: 300px;
+}
+
+.info2 {
+  max-width: 100%;
+}
+
+.kubla p {
+  margin: 0;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.den {
+  max-width: 300px;
+}
+
+.opium{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+figure.smoke {
+  max-width: 100%;
+}
+
+.infoDen {
+  max-width: 100%;
+  display: block;
+  top: 20px;
+}
+
+.infoDen p {
+  margin: 0;
+  padding-left: 10px;
+  font-size: 1.2em;
+}
+
+.opium button {
+  display: none;
+}
+
+.verses {
+  // max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  align-content: center;
+  justify-content: center;
+}
+
+.verse1,
+.verse2, 
+.verse3,
+.verse4 {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  
+}
+
+
+.fig2 {
+    align-content: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 0;
+  padding: 5px;
+  width: 100%
+}
+
+// .fig3,
+// .fig4
+.fig1 {
+  align-content: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 0;
+  padding: 5px;
+  // max-width: 100%
+}
+
+.verse3 figure img {
+  margin-top: 70px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+.verse2 figure img {
+  max-height: 200px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.verse4 figure img {
+  max-height: 200px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.verse1 figure img {
+  max-height: 200px;
+  max-width: 100%;
+}
+
+.fig1 p,
+.fig2 p,
+.fig3 p,
+.fig4 p {
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+.flickity-button {
+  width: 20px;
+  height: 20px;
+}
+
+.contact {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.contain { 
+ margin:0 auto;
+}
+
+.beast{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;   
+  margin: 0 auto;
+  background: transparent; 
+  font-family: 'Cinzel', sans-serif;   
+}
+
+.contact input {
+  width: 40%;
+}
+
+.contact button {
+  position: relative;
+  bottom: 1%;
+  left: 3%;
+  width: 100px;
+}
+
+textarea {
+  position: relative;
+  bottom: 2%;
+  left: 2%;
+  width: 50%;
+  height: 40px; 
+  font-size: 1.6rem;
+}
+
+}
+
+// /* MEDIUM TO LARGE MOBILE */
+
+@media screen 
+and (min-width: 401px) 
+and (max-width: 700px) {
+  
+nav {
+padding: 0px;
+}
+
+nav a {
+  font-size: 1.2rem;
+  padding: 15px;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  margin-top: 20px;
+}
+
+.hero h2 {
+ font-size: 4rem;
+}
+
+.headings {
+  padding-top: 120px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.sam {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  max-width: 100%;
+}
+
+.sam figure {
+  margin: 0 auto;
+  width: 50%
+}
+
+.sam img {
+  width: 100%;
+}
+
+
+.info {
+  max-width: 100%;
+}
+
+.sam h3 {
+max-width: 100%;
+}
+
+.sam p {
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.kubla {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 30px;
+  max-width: 100%;
+}
+
+.info2 {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.kubla p {
+  padding-top: 20px;
+  margin: 0;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.den {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.opium {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+figure.smoke {
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+
+.infoDen {
+  max-width: 90%;
+  display: block;
+  top: 20px;
+  margin: 0 auto;
+}
+
+.infoDen p {
+  margin: 0 auto;
+  padding-left: 10px;
+  font-size: 1.4em;
+}
+
+.opium {
+  padding: 40px;
+}
+
+.opium button {
+  display: none;
+}
+
+.hero,
+ .verses {
+
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  align-content: center;
+  justify-content: center;
+}
+
+.verses figure {
+  width: 50%;
+}
+
+.verse1,
+.verse2, 
+.verse3,
+.verse4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+
+.fig1,
+.fig2,
+.fig3,
+.fig4 {
+  align-content: center;
+  justify-content: center;
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 0;
+  padding: 5px;
+
+}
+
+.verse3 figure img {
+  margin-top: 20px;
+  max-height: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.verse2 figure img {
+  max-height: 200px;
+  width: 100%;
+}
+
+.verse4 figure img {
+  max-height: 200px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.verse1 figure img {
+  max-height: 200px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.fig1 p,
+.fig2 p,
+.fig3 p,
+.fig4 p {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  // max-width: 100%
+}
+
+.flickity-button {
+  width: 30px;
+  height: 30px;
+}
+
+.beast {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;   
+  width: 100%;
+  margin: 0 auto;
+  background: transparent; 
+  font-family: 'Cinzel', sans-serif;   
+}
+
+.contact input {
+  width: 40%;
+}
+
+.contact button {
+  position: relative;
+  bottom: 1%;
+  right: 10%;
+  width: 80px;
+}
+
+textarea {
+  position: relative;
+  bottom: 0%;
+  left: 1%;
+  width: 50%; 
+  font-size: 1.6rem;
+}
+
+}
+
+// TABLETS/////
+
+@media screen
+and (min-width: 701px)
+and (max-width: 1204px) {
+
+.about {
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.sam {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  max-width: 100%;
+}
+
+.sam figure {
+  margin: 0 auto;
+  width: 50%
+}
+
+.sam img {
+  width: 100%;
+}
+
+
+.info {
+  max-width: 100%;
+}
+
+.sam h3 {
+max-width: 100%;
+}
+
+.sam p {
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.kubla {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 30px;
+  max-width: 100%;
+}
+
+.info2 {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.kubla p {
+  padding-top: 20px;
+  margin: 0;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.den {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.opium {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+figure.smoke {
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+
+.infoDen {
+  max-width: 90%;
+  display: block;
+  top: 20px;
+  margin: 0 auto;
+}
+
+.infoDen p {
+  margin: 0 auto;
+  padding-left: 10px;
+  font-size: 1.4em;
+}
+
+.opium {
+  padding: 40px;
+}
+
+.opium button {
+  display: none;
+}
+
+.beast {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;   
+  width: 100%;
+  margin: 0 auto;
+  background: transparent; 
+  font-family: 'Cinzel', sans-serif;   
+}
+
+.contact input {
+  width: 40%;
+}
+
+.contact button {
+  position: relative;
+  bottom: 1%;
+  right: 10%;
+  width: 80px;
+}
+
+textarea {
+  position: relative;
+  bottom: 0%;
+  left: 1%;
+  width: 50%; 
+  font-size: 1.6rem;
+}
+
+}
+
+// MEDIA QUERY ENDS
+
+

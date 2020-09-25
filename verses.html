@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kubla Khan</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.12/js/all.js" integrity="sha384-Voup2lBiiyZYkRto2XWqbzxHXwzcm4A5RfdfG6466bu5LqjwwrjXCMBQBLMWh7qR" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Arizonia|Cinzel:700|Marck+Script|Merienda:700" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<link rel="stylesheet" href="styles/style.css"/>
+	
+	
+</head>
+
+<body>
+
+
+
+	<div class="hero">
+  	
+	  	<header>
+
+			<nav>
+		  		<ul>
+			  		<li><a href="index.html">Home</a></li>
+			  		<li><a href="about.html">About</a></li>
+			  		<li><a href="verses.html">Verses</a></li>
+			  		<li><a href="contact.html">Contact</a></li>
+		  		
+		  		</ul>
+		  	</nav>
+	  	</header>
+
+	  	<section class="den wrapper">
+
+			<div class="opium fade-in-fwd">
+
+	  			<figure class="smoke">
+	  				<img src="assets/opiumden.jpg" alt="man laying on a couch dreaming">
+	  		    </figure>
+
+	  		    <button class=reveal>Gateway to Creativity?</button>
+
+	  			<div class="infoDen text-pop-up-right">
+
+	  			<p>The poem was composed one night when Samuel Taylor experienced an <em>opium influenced dream ,</em> after reading a work describing <em>Xanadu</em> , the summer palace of the Mongol ruler and Emperor of China <em>Kublai Khan</em>.</p>
+
+	  			</div>
+
+
+
+	  		</div>
+
+	  	</section>
+	</div>
+
+	<div class="hero">
+
+		<div class="verses">
+
+	  		
+			<div class="verseO">
+				<figure>
+	  				<img src="assets/xanadu.jpg" alt="image of a palace with domes and boundary walls">
+	  			</figure>
+				<div class="figO">
+		  			<p> " In Xanadu did Kubla Khan
+					A stately pleasure-dome decree:
+					Where Alph, the sacred river, ran
+					Through caverns measureless to man
+					Down to a sunless sea. "</p>
+				</div>
+			
+	  		</div>
+
+			<div class="verseTw">
+
+				<figure>
+	  				<img src="assets/alph.jpg" alt="woman in a golden dress">
+				</figure>
+
+            	<div class="figTw">
+                	<p>" But oh! that deep romantic chasm which slanted
+					Down the green hill athwart a cedarn cover!
+					A savage place! as holy and enchanted
+					As e’er beneath a waning moon was haunted
+					By woman wailing for her demon lover ! "</p>
+				</div>
+
+				
+			</div>
+
+			<div class="verseTh">
+
+				<figure>
+	  				<img src="assets/cave.jpg" alt="picture of ice caves">
+				</figure>
+				
+				<div class="figTh">
+					<p>" The shadow of the dome of pleasure 
+					Floated midway on the waves;
+					Where was heard the mingled measure
+					From the fountain and the caves.
+					It was a miracle of rare device,
+					A sunny pleasure-dome with caves of ice! "</p>
+				</div>
+
+			</div>
+
+                
+				
+            <div class="verseFr">
+
+				<figure>
+	  				<img src="assets/damsel.jpg" alt="woman holding a msucial instrument">
+				</figure>
+
+				<div class="figFr">
+					<p>" A damsel with a dulcimer
+					In a vision once I saw:
+					It was an Abyssinian maid
+					And on her dulcimer she played,
+					Singing of Mount Abora.
+					Could I revive within me
+					Her symphony and song,
+					To such a deep delight ’twould win me, "</p>
+				</div>
+
+			</div>
+
+			
+				
+    
+		</div>
+    </div>
+	  	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js"></script>
+	<script>
+		
+		$(function()  {
+        	$(".verses").flickity({
+        			wrapAround: 'true'
+        	});
+
+        	$ ("a").smoothScroll({
+        		offset: 100,
+        		speed: 900
+
+        	});
+		});
+	</script>
+
+</body>

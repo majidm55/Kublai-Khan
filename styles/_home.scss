@@ -1,0 +1,70 @@
+
+.hero {
+	min-height: 100vh;
+  background: url("../assets/heros.png") repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.hero h1 {
+	font-family: 'Merienda', sans-serif;
+	text-align: center;
+	font-size: 10rem;
+	text-decoration: underline;
+  margin-top: 50px;
+}
+
+
+
+.hero h2 {
+	font-family: 'Arizonia', sans-serif;
+	text-align: center;
+	font-size: 5rem;
+}
+
+.headings {
+	padding-top: 100px;
+}
+
+.poem {
+	animation: tracking-in-expand-fwd 1.2s;
+}
+
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.author {
+	animation: text-focus-in 2s;
+	// animation-delay: 1s;
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+
+ }
+
